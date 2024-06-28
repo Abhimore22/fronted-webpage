@@ -8,27 +8,24 @@
 
 </head>
 <body>
-   <!--  Navbar Section Stated -->
+   <!--  Navbar Section Start -->
 
    <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-        <span><i class="fa-solid fa-bars"> </i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
       </button>
       <div class="collapse navbar-collapse" id="mynavbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="packages.html">Packages</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallary">Register</a>
+            <a class="nav-link" href="registerpage.html">Register</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
+            <a class="nav-link" href="loginpage.html">login</a>
           </li>
          
         </ul>
@@ -39,6 +36,8 @@
       </div>
     </div>
   </nav>
+
+  <!--  Navbar Section end -->
 
   <!-- Home Section Started-->
   <div class="home">
@@ -51,69 +50,56 @@
     </div>
 </div>
 <!-- Home Section end-->
-
+ 
+<!-- Trending Section Start -->
 <section class="gallary" id="gallary">
       <div class="container">
 
         <div class="main-txt">
-          <h1><span>G</span>allary</h1>
+          <h1>Top Trending Destinations</h1>
         </div>
+        <div class="container">
 
         <div class="row" style="margin-top: 30px;">
-          <div class="col-md-3 py-3 py-md-0">
+
+          <div class="col-md-3 py-3 py-md-1">
             <div class="card">
-              <img src="asset/images/pexels-stijn-dijkstra-1306815-2659475.jpg" alt="" height="230px">
+              <img src="asset/images/bali.jpg" alt="" height="230px">
+              <a href="addtocartbali.html">  <p style="text-align: center; font-size: 25px;">Bali</p> </a>
             </div>
           </div>
-          <div class="col-md-3 py-3 py-md-0">
+          <div class="col-md-3 py-3 py-md-1">
             <div class="card">
-              <img src="asset/images/pexels-stijn-dijkstra-1306815-2659475.jpg" alt="" height="230px">
+              <img src="asset/images/INDIA.jpg" alt="" height="230px">
+              <a href="addtocartindia.html">   <p style="text-align: center; font-size: 25px;">india</p> </a>
             </div>
           </div>
-          <div class="col-md-3 py-3 py-md-0">
+          <div class="col-md-3 py-3 py-md-1">
             <div class="card">
-              <img src="asset/images/pexels-tobiasbjorkli-2104152.jpg" alt="" height="230px">
+              <img src="asset/images/italy.jpg" alt="" height="230px">
+              <a href="addtocartitaly.html"> <p style="text-align: center; font-size: 25px;">Italy</p> </a>
   
             </div>
           </div>
-          <div class="col-md-3 py-3 py-md-0">
+          <div class="col-md-3 py-3 py-md-1">
             <div class="card">
-              <img src="asset/images/pexels-nandhukumar-450441.jpg" alt="" height="230px">
+              <img src="asset/images/dubai.jpg" alt="" height="230px">
+             <a href="addtocartdubai.html"> <p style="text-align: center; font-size: 25px; ">Dubai</p> </a>
             </div>
           </div>
+          </div>
+         
         </div>
+      </div>
 
 
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g4.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g5.png" alt="" height="230px">
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <img src="./images/g6.png" alt="" height="230px">
-            </div>
-          </div>
+      
         </div>
 
       </div>
     </section>
 
-
-
-
-
-
-
-
-
-
+<!-- Trending Section Start -->
 
 <!-- Service Section Start-->
 <section class="services" id="services">
@@ -148,17 +134,14 @@
 
       </div>
 
-
-
     </div>
-
 
     <div class="row" style="margin-top: 30px;">
 
       <div class="col-md-4 py-3 py-md-0">
 
         <div class="card">
-          <i class="fas fa-globe-asia"></i>
+          <i class='fas fa-globe-asia'></i>
           <div class="card-body">
             <h3>Around The World</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, eaque.</p>
@@ -198,8 +181,87 @@
 
 <!-- Service Section end-->
 
+<!-- Review Section Start -->
+<!-- Customer Review Section -->
+<section class="customer-review">
+  <div class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="review-card">
+          <img src="asset/images/team-1.jpg" alt="Customer Image">
+          <h4>John Doe</h4>
+          <p>Booking with travel was the best decision I made for my vacation! From the moment I contacted them to plan my trip to the seamless execution of every detail, I felt like a VIP.</p>
+          <span class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review-card">
+          <img src="asset/images/testimonial-1.jpg" alt="Customer Image">
+          <h4>Jane Doe</h4>
+          <p>I had an incredible adventure with Travel. The itinerary was well-balanced between sightseeing and relaxation, and the guides were knowledgeable and friendly.</p>
+          <span class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </span>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="review-card">
+          <img src="asset/images/team-3.jpg" alt="Customer Image">
+          <h4>Bob Smith</h4>
+          <p>I've traveled extensively, but my experience with travel was truly exceptional. They listened to my preferences and crafted a personalized itinerary that exceeded all expectations.</p>
+          <span class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i class="far fa-star"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- Review Section end -->
 
-<!-- From Section Started-->
+<!-- Footer Section Started-->
+<footer class="footer">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-4" >
+        <h5>About Us</h5>
+        <p>Welcome to travel, where we turn your travel dreams into unforgettable adventures. With a passion for exploring the world and a commitment to offering the best in travel experiences, we are your trusted partner in discovering the globe’s wonders.</p>
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <h5>Follow Us</h5>
+        <ul>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright &copy; 2023 Travel PVT. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+<!-- footer section end-->
 
   <script src="asset/js/bootstrap.min.js"></script>
 </body>

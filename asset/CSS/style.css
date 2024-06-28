@@ -2,6 +2,7 @@
 
 #navbar{
     background: #f9f9f9;
+    display: fixed;
 }
 #logo{
     font-size: 36px;
@@ -114,7 +115,7 @@ div p{
 
 /* Home Selection Css end */
 
-/*packages css code start*/
+/*packages css code start*/ 
 #new23 span{
     color: #00fff2;
 }
@@ -128,6 +129,126 @@ div p{
     padding-left: 18px;
     padding-right: 18px;
 }
+
+/* section Service Start */
+
+.services{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+}
+.services .card .card-body h3{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
+
+/* section Service end */
+
+
+
+/* customer Review start */
+
+.customer-review {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .review-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .review-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .review-card h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .rating {
+    font-size: 18px;
+    color: #ffd700;
+  }
+  
+  .rating i {
+    margin-right: 5px;
+  }
+
+/*customer review end */
+
+/*footer start */
+.footer {
+    background-color: #363535;
+    padding: 20px 0;
+    color: #fffcfc;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer h5 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer li {
+    margin-bottom: 10px;
+  }
+  
+  .footer a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    color: #23527c;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/*footer end */
+
+
 
 
 
@@ -157,57 +278,3 @@ div p{
 
 
 /*packages css code end*/
-
-
-.book{
-    background: #fffdfd;
-    padding: 50px;
-}
-.main-text h1{
-    text-align: center;
-    text-shadow: 0px 1px 1px black;
-    font-weight: 600;
-}
-.main-text h1 span{
-    color: #00fff2;
-}
-.book .card{
-    border-radius: 10px;
-    box-shadow: 0px 5px 5px -6px black;
-}
-.book .row{
-    margin-top: 30px;
-}
-.book form input{
-    padding: 10px;
-    color: black;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 5px -6px black;
-}
-.book form textarea{
-    border: none;
-    border-radius: 10px;
-    resize: none;
-    box-shadow: 0px 5px 5px -6px black;
-    height: 200px;
-}
-.book .submit{
-    width: 160px;
-    font-size: 16px;
-    font-weight: 550;
-    background: #00fff2;
-    color: rgb(3, 2, 2);
-    margin-top: 10px;
-    transition: 0.5s;
-}
-.book .submit:hover{
-    width: 170px;
-}
-
-.cart{
-     border-radius: 12px;
-}
-
